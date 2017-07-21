@@ -1,0 +1,466 @@
+/* Start Frame */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 200vh
+}
+
+.main-color {
+    color: #ec8a00
+}
+
+
+/* End Frame */
+
+
+/* Start Navbar */
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: transparent;
+    color: #fc8a00
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 20px
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 2vh;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    color: #fff !important
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fc8a00;
+    transition: all .5s ease-in-out
+}
+
+.scrolling {
+    background: rgb(255, 255, 255);
+    padding: 6px;
+    margin: 0;
+    color: #333;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-default .navbar-toggle {
+    background-color: #fc8a00
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #333
+}
+
+.line:after {
+    content: '';
+    display: block;
+    width: 10vh;
+    height: 2px;
+    background: #fc8a00;
+    margin: 25px auto
+}
+
+
+/* End Navbar */
+
+
+/* Start Header */
+
+header {
+    background: url('../Img/Heading/haeding.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #333;
+    height: 75vh;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    margin-top: 25vh;
+    font-size: 9vh;
+}
+
+typed-cursor {
+    opacity: 0
+}
+
+header a .fa-angle-down {
+    margin-top: 30vh;
+    font-size: 6vh;
+    color: #fff;
+    transition: all .5s ease-in-out
+}
+
+header .fa:hover {
+    color: #fc8a00;
+}
+
+
+/* End Header */
+
+
+/* Start About Me */
+
+.about-me {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-p {
+    position: relative;
+    bottom: 32px;
+}
+
+@media (max-width: 480px) {
+    .about-p {
+        bottom: 16px
+    }
+}
+
+.about-me h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 5vh
+}
+
+.about-me p {
+    font-size: 2.4vh;
+    line-height: 1.8;
+}
+
+.about-me img {
+    max-width: 450px;
+    height: 400px;
+}
+
+.about-me img:before {
+    content: '';
+    display: block;
+    width: 10vh;
+    height: 2px;
+    background: #fc8a00;
+    margin: 25px auto
+}
+
+
+/* End About Me */
+
+
+/* Start Feedbacks */
+
+.feedback {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.feedback h1 {
+    font-size: 6vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 3vh;
+}
+
+.feedback h1:before {
+    content: '';
+    display: block;
+    width: 10vh;
+    height: 2px;
+    background: #fc8a00;
+    margin: 25px auto
+}
+
+.feedback .feeds p {
+    font-size: 3.5vh;
+    margin-bottom: 3vh;
+}
+
+.feedback .feeds span {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.feedback .feeds .second-feed,
+.feedback .feeds .third-feed {
+    display: none
+}
+
+.feedback ul li {
+    list-style: none;
+    height: 12px;
+    width: 12px;
+    border: 1px solid #fc8a00;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 8px;
+    position: relative;
+    right: 14px;
+    cursor: pointer;
+    margin-top: 3vh;
+}
+
+.feedback ul li.active {
+    border: 2px solid #333;
+    height: 13px;
+    width: 13px;
+}
+
+
+/* End Feedbacks */
+
+
+/* Start Protofolio */
+
+.pro {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.pro h1 {
+    font-size: 6vh;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pro .protos img {
+    margin-top: 3vh;
+    border: 1px solid #fc8a00
+}
+
+
+/* End Protofolio */
+
+
+/* Start Contact Me */
+
+.contact-me {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-me h1 {
+    font-size: 6vh;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contact-me form label {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contact-me form input,
+.contact-me form textarea {
+    display: block;
+    margin: auto;
+    margin-bottom: 2vh;
+    width: 50%;
+    padding: 6.5465465px;
+    outline: none;
+    color: #333;
+    border: 1px solid #fc8a00;
+    font-size: 18px;
+    font-weight: bold;
+    resize: none
+}
+
+.contact-me form input[type="password"] {
+    color: #333
+}
+
+.contact-me form input::selection {
+    background-color: rgba(252, 138, 0, 0.87);
+    color: #fff
+}
+
+.contact-me form textarea::selection {
+    background-color: rgba(252, 138, 0, 0.87);
+    color: #fff
+}
+
+.contact-me form input[type="submit"] {
+    width: 25%;
+    background-color: #fc8a00;
+    color: #fff;
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+.vali {
+    padding: 10px;
+    background-color: #d90000;
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: none
+}
+
+
+/* End Contact Me */
+
+
+/* Start Clock */
+
+.clock {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.clock h1 {
+    font-size: 6vh;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.clock h3 {
+    font-size: 6vh;
+    font-weight: bold;
+    margin-top: 30px;
+    letter-spacing: 3px
+}
+
+
+/* End Clock */
+
+
+/* Start Footer */
+
+footer {
+    padding-top: 80px;
+    background-color: #282828;
+    color: #fff;
+    border-top: 3px solid #fc8a00
+}
+
+footer:before {
+    content: '';
+    display: block;
+    border-top: 6px solid #fc8a00;
+    position: relative;
+    bottom: 80px;
+    width: 50%;
+    margin: auto;
+}
+
+footer .main-footer {
+    background-color: #282828;
+    padding: 20px;
+    width: 100%;
+    height: 23vh;
+}
+
+footer .main-footer p {
+    color: #908F8F;
+    line-height: 2em;
+    font-size: 18px;
+}
+
+footer .main-footer .amrElmaghrabi {
+    float: right;
+    color: #a8a8a8 !important;
+    font-size: 15px !important;
+    position: relative;
+    right: 71px;
+}
+
+footer .main-footer .social i {
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin-right: 20px;
+    margin-bottom: 10px
+}
+
+footer .main-footer .social span {
+    color: #908F8F;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fb {
+    background-color: #3b5998
+}
+
+.tw {
+    background-color: #1da1f2
+}
+
+.gp {
+    background-color: #dd4b39
+}
+
+.li {
+    background-color: #0077b5
+}
+
+.pt {
+    background-color: #bd081c
+}
+
+footer .main-footer .information i {
+    font-size: 2.5em;
+    font-weight: lighter;
+    margin-right: 20px;
+    margin-bottom: 50px
+}
+
+footer .main-footer .information i:nth-of-type(2) {
+        font-size: 3em;
+        margin-right: 45px;
+        position: relative;
+        left: 5px;
+}
+
+footer .main-footer .information span {
+    color: #908F8F;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer .footer-copyright {
+    background-color: #1d1a1b;
+    height: 6vh;
+}
+
+footer .footer-copyright .sdo,
+footer .footer-copyright .bdo {
+    color: #c4c4c4;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.texts {
+    margin: 21px;
+    line-height: 50px;
+}
+
+
+/* End Footer */
